@@ -2,8 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const graphqlHttp = require("express-graphql").graphqlHTTP;
 
-const mongoose = require("mongoose");
-const app = express();
+const mongoose = require("mongoose")
+const app = express()
 const Event = require("./models/event");
 const User=require('./models/user')
 const bcrypt=require('bcryptjs')
